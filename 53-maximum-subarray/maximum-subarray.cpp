@@ -6,7 +6,7 @@ public:
         int maxSum = nums[0];  
 
         for(int num : nums){
-            currentSum += num;
+            currentSum =currentSum + num;
             maxSum = max(maxSum , currentSum);
 
             if (currentSum<0){
